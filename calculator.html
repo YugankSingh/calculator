@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Click Count</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    <link rel="stylesheet" href="https://use.typekit.net/naw4zps.css">
+
+
+</head>
+<body>
+    <div id="calculator">
+        <h1 id="heading">Calculator</h1>
+        <div id="output-screen">
+            <p id="input-prev"></p>
+            <p id="output"></p>
+        </div>
+        <div id="calculator-input">
+            <div onclick="clearOutput()">AC</div>
+            <div onclick="toggleSign()">+/-</div>
+            <div onclick="percent()">%</div>
+            <div class="operator" onclick="operandClick('/')">/</div>
+            <div onclick="input(7)" >7</div>
+            <div onclick="input(8)" >8</div>
+            <div onclick="input(9)" >9</div>
+            <div class="operator" onclick="operandClick('*')">x</div>
+            <div onclick="input(4)" >4</div>
+            <div onclick="input(5)" >5</div>
+            <div onclick="input(6)" >6</div>
+            <div class="operator" onclick="operandClick('-')">-</div>
+            <div onclick="input(1)" >1</div>
+            <div onclick="input(2)" >2</div>
+            <div onclick="input(3)" >3</div>
+            <div class="operator" onclick="operandClick('+')")>+</div>
+            <div onclick="input(0)" id="zero">0</div>
+            <div onclick="input('.')" >.</div>
+            <div class="operator" onclick="solve()" >=</div>
+        </div>
+    </div>
+    <script src="calculator.js">
+    </script>
+</body>
+</html>
