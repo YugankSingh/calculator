@@ -8,6 +8,6 @@ which does simple arithmetic, decimal arithmetic , integral arithmetic and perce
 
 
 # What I learned
-- Using onClick in HTMl
+- Using onClick in HTML
 - Using eval() operator in js
 - basic DOM manipulation using vanilla JS
